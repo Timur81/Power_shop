@@ -1,0 +1,225 @@
+@media all {
+.intro {
+height:564px;
+background-image: url("images/news_main.jpg");
+}
+.box__line {
+display:flex;
+flex-direction: row;
+justify-content: space-between;
+}}
+          @media all and (min-width: 1000px){
+          .box {
+          flex-basis: 320px;
+          margin-left: 0px;
+          margin-right: 0px;
+          margin-bottom: 50px;
+          display: flex;
+          flex-direction: row;
+          margin: 100px 0;
+          margin-left: 5%;
+          }
+          .box__photo {
+          margin-bottom: 20px;
+          flex-basis: 300px;
+          flex-grow: 1;
+          flex-shrink: 0;
+          }
+          .box__photo img {
+          width: 360px;
+          border-radius: 10px;
+          }
+          .title_new_cars {
+          font-size: 40px ;
+          color: #14213D;
+          font-weight: 900;
+          }
+          .box__photo {
+          margin-left: 0px;
+          margin-right: 0px;
+          flex-grow: 1;
+          flex-basis: 300px;
+          justify-content:space-between;
+          }
+          .box__title{
+          margin-top: 0px;
+          margin-left: 50px;
+          flex-grow: 1;
+          flex-basis: 500px;
+          }
+          .box__title h1{
+          margin-bottom: 30px;
+          font-size: 35px;
+          font-weight: bold;
+          color:#14213D;
+          }
+          #Btn {
+          display: none;
+          position: fixed;
+          bottom: 250px;
+          left: 50px;
+          z-index: 2;
+          font-size: 20px;
+          border: none;
+          outline: none;
+          background-color: #14213D;
+          color: white;
+          cursor: pointer;
+          padding: 15px;
+          border-radius: 5px;
+          }
+          #Btn:hover {
+          background-color: #F74639;
+          }}
+                @media all and (max-width: 1000px) and (min-width: 560px){
+                .box {
+                flex-basis: 320px;
+                margin-left: 0px;
+                margin-right: 0px;
+                margin-bottom: 50px;
+                display: flex;
+                flex-direction: row;
+                margin: 100px 0;
+                margin-left: 5%;
+                }
+                .box__photo {
+                margin-bottom: 20px;
+                flex-basis: 300px;
+                flex-grow: 1;
+                flex-shrink: 0;
+                }
+                .box__photo img {
+                width: 250px;
+                border-radius: 10px;
+                }
+                .new_cars{
+                margin-top: 60px;
+                }
+                .title_new_cars {
+                font-size: 40px ;
+                color: #14213D;
+                font-weight: 900;
+                }
+                .box__photo {
+                margin-left: 0px;
+                margin-right: 0px;
+                flex-grow: 1;
+                flex-basis: 20px;
+                }
+                .box__title {
+                margin-top: 0px;
+                margin-left: 5%;
+                flex-grow: 1;
+                flex-basis: 230px;
+                }
+                .box__title h1 {
+                margin-bottom: 30px;
+                font-size: 25px;
+                font-weight: bold;
+                color:#14213D;
+                }
+                #Btn {
+                display: none;
+                position: fixed;
+                bottom: 250px;
+                left: 50px;
+                z-index: 2;
+                font-size: 20px;
+                border: none;
+                outline: none;
+                background-color: #14213D;
+                color: white;
+                cursor: pointer;
+                padding: 15px;
+                border-radius: 5px;
+                }
+                #Btn:hover {
+                background-color: #F74639;}
+                .box__title .block {
+                background-color: #F74639;
+                margin: 0px;
+                font-size: 15px;
+                font-weight: 700;
+                border: 1px solid #F74639;
+                border-radius: 5px;
+                width: 10em;
+                padding: 10px;
+                text-align: center;
+                }}
+                          @media all and (max-width: 560px){
+                          .box {
+                            flex-basis: 0px;
+                            margin-left: 0px;
+                            margin-right: 0px;
+                            margin-bottom: 50px;
+                            display: flex;
+                            flex-direction: column;
+                            margin: 100px 0;
+                            margin-left: 5%;
+                          }
+                          .box__photo {
+                            margin-left: 0px;
+                            margin-right: 0px;
+                            flex-grow: 1;
+                            
+                          }
+                          .box__photo img {
+                          width: 80%;
+                          border-radius: 10px;
+                          }
+                          .new_cars {
+                          margin-top: 60px;
+                          }
+                          .title_new_cars {
+                          font-size: 20px ;
+                          color: #14213D;
+                          font-weight: 900;
+                          }
+                          .box__photo {
+                          margin-left: 0px;
+                          margin-right: 0px;
+                          flex-grow: 1;
+                          flex-basis: 20px;
+                          }
+                          .box__title {
+                            margin-top: 0px;
+                            flex-grow: 1;
+                            order: 2;
+                            width: 80%;
+                            margin-left: 0px;
+                            margin-right: 0px;
+                          }
+                          .box__title h1 {
+                            margin-bottom: 30px;
+                            font-size: 20px;
+                            font-weight: bold;
+                            color: #14213D;
+                          }
+                          #Btn {
+                          display: none;
+                          position: fixed;
+                          bottom: 250px;
+                          left: 50px;
+                          z-index: 2;
+                          font-size: 20px;
+                          border: none;
+                          outline: none;
+                          background-color: #14213D;
+                          color: white;
+                          cursor: pointer;
+                          padding: 15px;
+                          border-radius: 5px;
+                          }
+                          #Btn:hover {
+                          background-color: #F74639;}
+                          .box__title .block {
+                          background-color: #F74639;
+                          margin: 0px;
+                          font-size: 15px;
+                          font-weight: 700;
+                          border: 1px solid #F74639;
+                          border-radius: 5px;
+                          width: 10em;
+                          padding: 10px;
+                          text-align: center;
+                          }}

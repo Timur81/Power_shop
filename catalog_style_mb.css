@@ -1,0 +1,40 @@
+@media all {
+   .intro {
+   height: 564px;
+   background-image: url("images/cars/mb_catalog.jpg");
+   }
+   .box {
+   flex-basis: 450px;
+   margin-bottom: 50px;
+   flex-shrink: 0;
+   margin-top: 0px;
+   }
+   .box__photo {
+   margin-bottom: 20px;
+   flex-basis: 300px;
+   flex-grow: 1;
+   flex-shrink: 0;
+   }
+   .box__photo img {
+   width: 450px;
+   border-radius: 10px;
+   }
+   .new_cars {
+   margin-top: 90px;
+   }}
+               @media all and (min-width: 1070px) {
+               .box__line {
+               display:flex;
+               flex-direction: row;
+               justify-content: space-between;
+               margin-bottom: 30px;
+               flex-shrink: 1;
+               }}
+                        @media all and (max-width: 1070px) {
+                        .box__line {
+                        display:flex;
+                        flex-direction: column;
+                        justify-content: space-between;
+                        margin-bottom: 30px;
+                        flex-shrink: 1;
+                        }}

@@ -1,0 +1,168 @@
+@media all{
+/*заглавное фото*/
+.intro {
+height: 400px;
+background-image: url("images/1.about.jpg");
+}
+/*заглавие на фото*/
+.intro__title2 {
+font-style: italic;
+font-size: 75px;
+color:white;
+font-weight:300;
+margin: 0px;
+text-align: left;
+}
+.lbox__title h1 {
+margin-bottom: 30px;
+font-size: 35px;
+font-weight: bold;
+color: #14213D;}
+p {
+font-size: 20px;
+}
+/*фотографии*/
+.l_photos {
+display: flex;
+flex-direction: column;
+}
+.all_photos{
+flex-direction: row;
+flex-shrink: 1;
+flex-grow: 1;
+}
+.lbox__photos__left {
+float: left;
+}
+.lbox__photos__top{
+margin-left: 5px;
+}
+.lbox__photos__bottom{
+margin-left: 5px;
+margin-top: 5px;
+}}
+         @media all and (min-width: 1070px){
+         /*информация о компании*/
+         .lbox{
+         display: flex;
+         flex-direction: row;
+         margin-top: 100px;
+         margin-bottom: 100px;
+         margin-top: 150px;
+         flex-shrink: 0;
+         flex-basis: 1000px;
+         flex-shrink: 1;
+         }
+         .lbox__title{
+         margin-top: 0px;
+         margin-right: 10px;
+         flex-grow: 2;
+         flex-basis: 400px;
+         flex-shrink: 1;
+         margin-bottom: 50px;
+         margin-left: 5%;
+         }
+         .about_map {
+         display: flex;
+         flex-direction: row;
+         margin-bottom: 100px;
+         }
+         /*большая карта google*/
+         .map {
+         flex-basis: 550px;
+         flex-grow: 1;
+         flex-shrink: 1;
+         margin-left: 5%;
+         }
+         .map_title{
+         flex-basis: 400px;
+         flex-grow: 1;
+         flex-shrink: 1;
+         margin-top: 0px;
+         }
+         h1 {
+         margin-bottom: 30px;
+         font-size: 35px;
+         font-weight: bold;
+         color: #14213D;
+         margin-left: 5%;
+         }
+         strong {
+         font-size: 23px;
+         font-weight: bold;
+         color: #14213D;
+         }
+         iframe {
+         border-radius: 10px;
+         }}
+                  @media all and (max-width: 1070px){
+                  /*информация о компании*/
+                  .lbox {
+                  display: flex;
+                  flex-direction: column;
+                  margin-bottom: 100px;
+                  margin-top: 60px;
+                  flex-shrink: 0;
+                  flex-basis: 1000px;
+                  flex-shrink: 1;
+                  }
+                  .lbox__title {
+                  margin-top: 0px;
+                  margin-right: 10%;
+                  margin-left: 10%;
+                  flex-grow: 2;
+                  flex-basis: 0px;
+                  flex-shrink: 1;
+                  margin-bottom: 50px;
+                  }
+                  .about_map {
+                  display: flex;
+                  flex-direction: column;
+                  margin-bottom: 100px;
+                  }
+                  /*маленькая карта google*/
+                  .map {
+                  flex-basis: 440px;
+                  flex-grow: 1;
+                  flex-shrink: 1;
+                  align-items: center;
+                  }
+                  .map_title{
+                  flex-basis: 200px;
+                  flex-grow: 1;
+                  flex-shrink: 1;
+                  margin-top: 0px;
+                  }
+                  h1 {
+                  margin-bottom: 30px;
+                  font-size: 40px;
+                  font-weight: bold;
+                  color: #14213D;
+                  text-align: center;
+                  margin-left: 5%;
+                  }
+                  strong {
+                  font-size: 30px;
+                  font-weight: bold;
+                  color: #14213D;
+                  }
+                  iframe {
+                  border-radius: 10px;
+                  width: 350px;
+                  height: 350px;
+                  }}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

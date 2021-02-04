@@ -1,0 +1,613 @@
+@media all{
+
+/* small_SVG_icons "" */
+.icon-Logotype_full,.icon-Logotype_full\:regular{background-image:url('images/images/icons/icons.svg');background-position:0 0;background-repeat:no-repeat}
+.icon-Logotype_full-dims{width:192px;height:59px;margin-left: 0px;}
+.icon-call,.icon-call\:regular{background-image:url('images/images/icons/icons.svg');background-position:0 -59px;background-repeat:no-repeat}
+.icon-call-dims{width:11px;height:13px;padding-left: 16px;}
+.icon-dollar,.icon-dollar\:regular{background-image:url('images/images/icons/icons.svg');background-position:0 -72px;background-repeat:no-repeat}
+.icon-dollar-dims{width:49px;height:46px;margin-left: 0px;}
+.icon-envelope,.icon-envelope\:regular{background-image:url('images/images/icons/icons.svg');background-position:0 -114px;background-repeat:no-repeat}
+.icon-envelope-dims{width:11px;height:13;padding-left: 16px;}
+.icon-facebook,.icon-facebook\:regular{background-image:url('images/images/icons/icons.svg');background-position:0 -131px;background-repeat:no-repeat}
+.icon-facebook-dims{width:25px;height:26px;margin-left: 0px;}
+.icon-instagram,.icon-instagram\:regular{background-image:url('images/images/icons/icons.svg');background-position:0 -157px;background-repeat:no-repeat}
+.icon-instagram-dims{width:25px;height:26px;margin-left: 0px;}
+.icon-linkedin,.icon-linkedin\:regular{background-image:url('images/images/icons/icons.svg');background-position:0 -183px;background-repeat:no-repeat}
+.icon-linkedin-dims{width:25px;height:26px;margin-left: 0px;}
+.icon-logo,.icon-logo\:regular{background-image:url('images/images/icons/icons.svg');background-position:0 -209px;background-repeat:no-repeat}
+.icon-logo-dims{width:58px;height:59px}
+.icon-lupa,.icon-lupa\:regular{background-image:url('images/images/icons/icons.svg');background-position:0 -268px;background-repeat:no-repeat}
+.icon-lupa-dims{width:31px;height:31px}
+.icon-man,.icon-man\:regular{background-image:url('images/images/icons/icons.svg');background-position:0 -299px;background-repeat:no-repeat}
+.icon-man-dims{width:49px;height:46px;margin-left: 0px;}
+.icon-triangle,.icon-triangle\:regular{background-image:url('images/images/icons/icons.svg');background-position:0 -345px;background-repeat:no-repeat}
+.icon-triangle-dims{width:49px;height:46px;margin-left: 0px;}
+.icon-twitter,.icon-twitter\:regular{background-image:url('images/images/icons/icons.svg');background-position:0 -391px;background-repeat:no-repeat}
+.icon-twitter-dims{width:25px;height:26px;margin-left: 0px;}
+/* cars_icons */
+.icon-aston,.icon-aston\:regular{background-image:url('images/car_icons/icons/icons.svg');background-position:0 0;background-repeat:no-repeat}
+.icon-aston-dims{width:60px;height:46px}
+.icon-audi,.icon-audi\:regular{background-image:url('images/car_icons/icons/icons.svg');background-position:0 -46px;background-repeat:no-repeat}
+.icon-audi-dims{width:64px;height:24px}
+.icon-bmw,.icon-bmw\:regular{background-image:url('images/car_icons/icons/icons.svg');background-position:0 -70px;background-repeat:no-repeat}
+.icon-bmw-dims{width:60px;height:60px}
+.icon-ferrari,.icon-ferrari\:regular{background-image:url('images/car_icons/icons/icons.svg');background-position:0 -130px;background-repeat:no-repeat}
+.icon-ferrari-dims{width:47px;height:66px}
+.icon-lambo,.icon-lambo\:regular{background-image:url('images/car_icons/icons/icons.svg');background-position:0 -196px;background-repeat:no-repeat}
+.icon-lambo-dims{width:60px;height:61px}
+.icon-mb,.icon-mb\:regular{background-image:url('images/car_icons/icons/icons.svg');background-position:0 -257px;background-repeat:no-repeat}
+.icon-mb-dims{width:60px;height:61px}
+/*общее оформление для страниц*/
+body {
+font-size: 100%;
+margin:0;
+font-size: 14px;
+color:black;
+font-family:'Montserrat';
+min-width: 500px;
+}
+/*ограничение изменения размера блоков ввода*/
+input,
+textarea {
+resize: none;
+}
+/*анимация при наведении*/
+::selection {
+background: #F74639; 
+color: #fff;
+}
+*,
+body {
+-webkit-text-size-adjust: none;
+margin: auto;
+}
+/*ширина контейнера с контентом*/
+.container {
+width: 100%;
+max-width: 1260px;
+margin: 0 auto;
+}
+.header{
+width: 100%;
+}
+/*расположение элементов хедера*/
+.header__inner {
+display:flex;
+padding-top: 1em;
+padding-bottom: 1em;
+align-items: center;
+}
+/*логотип*/
+
+/*фото в шапке сайта*/
+.intro {
+background-position: center ;
+background-repeat: no-repeat;
+background-size:cover;
+}
+/*инфорация под фото авто*/
+.box .box__title h1 {
+color: #14213D;
+}
+.box .box__title p {
+font-size: 20px;
+}
+.box__info__car{
+position: relative;
+font-size: 20px;
+}
+/*оформление футера*/
+.footer {
+background-color: #14213D;
+width: 100%;
+height: 200px;
+display: flex;
+}
+.footer__icons {
+display: block;
+}
+.foot__line {
+color:#fff;
+margin-left: 1em;
+margin-bottom: 1em;
+margin-top: 1em;
+}
+.foot__line img {
+margin-right: 10px;
+}
+.foot__line p{
+font-size: 20px;
+}
+.foot__line div{
+margin-left: 20px;
+}
+.foot__line__icons {
+display: flex;
+flex-direction: row;
+margin-left: 1em;
+}
+.foot__line__icons a {
+margin-left: 0px;
+margin-right: 10px;
+}
+/*текст в кнопке 'подробнее'*/
+.block a {
+text-decoration: none;
+color: white;
+margin: 10px;
+text-align: center;
+}
+      @media all and (min-width: 1070px){
+      /*расположение ссылок навигации по сайту*/
+      .nav {
+      display: flex;
+      flex-grow: 3;
+      font-size: 20px;
+      }
+      .header__logo {
+      flex-grow: 1;
+      margin-left: 5%;
+      }
+      #menu__toggle {
+      opacity: 0;
+      }
+      /*бургер-меню (скрыто)*/
+      .burger {
+      display: none;
+      }
+      /*ссылки навигации по сайту*/
+      .nav__link {
+      text-decoration: none;
+      color: #000;
+      }
+      .nav a {
+      flex-grow: 1;
+      flex-shrink: 1;
+      align-items: center;
+      text-decoration: none;
+      margin: 5px 5px;
+      padding: 5px 5px;
+      color: #F74639;
+      transition: 0.4s;
+      box-shadow: inset 0 -5px 0 #F74639;
+      text-align: center;
+      }
+      /*иконки авто в широком поле в линию*/
+      .car__icons {
+      display:flex;
+      position: relative;
+      width: 540px;
+      height: 80px;
+      margin: 0 auto;
+      margin-top:-40px;
+      background-color: #fff;
+      box-shadow: 0 0 20px #F74639;
+      border: 1px solid #F74639;
+      border-radius: 10px;
+      }
+      .car__icons div {
+      flex-direction: row;
+      }
+      .nav__link:first-child {
+      margin-left: 0px;
+      }
+      .nav__link:hover{
+      box-shadow: inset 0 -60px 0 #F74639;
+      color: #fff;
+      }
+      /*заглавие на фото на широком экране*/
+      .intro__title {
+      font-size: 75px;
+      color:#fff;
+      font-weight:700;
+      margin: 0px;
+      text-align: left;
+      padding-top: 60px;
+      }
+      .intro__inner {
+      max-width:600px;
+      margin-left: 5%;
+      }
+      .box__info {
+      position: relative;
+      font-size: 20px;
+      }
+      /*оформление ссылок 'подробнее'*/
+      .block {
+      background-color: #F74639;
+      margin: 0px;
+      font-size: 20px;
+      font-weight: 700;
+      border: 1px solid #F74639;
+      border-radius: 5px;
+      width:10em;
+      padding: 15px;
+      margin-top: 40px;
+      text-align: center;}
+      }
+
+              @media all and (max-width: 1070px) and (min-width: 700px){
+              .nav {
+                display:none ;
+              }
+              /*иконки авто в среднем поле в линию*/
+              .car__icons{
+              display:flex;
+              position: relative;
+              width: 500px;
+              height: 80px;
+              margin-top:-40px;
+              background-color: #fff;
+              box-shadow: 0 0 20px #F74639;
+              border: 1px solid #F74639;
+              border-radius: 10px;
+              }
+              .header__logo {
+              flex-grow: 1;
+              margin-left: 10%;
+              }
+              .car__icons div{
+              flex-direction: row;
+              }
+              .menu__btn {
+              display: flex;
+              align-items: center;
+              position: fixed;
+              top: 20px;
+              left: 20px;
+              width: 26px;
+              height: 26px;
+              cursor: pointer;
+              z-index: 1;
+              }
+              /* гамбургер меню */
+              .menu__btn > span,
+              .menu__btn > span::before,
+              .menu__btn > span::after {
+              display: block;
+              position: absolute;
+              width: 100%;
+              height: 3px;
+              background-color: #F74639;
+              }
+              .menu__btn > span::before {
+              content: '';
+              top: -8px;
+              }
+              .menu__btn > span::after {
+              content: '';
+              top: 8px;
+              }
+              /* контейнер меню */
+              .menu__box {
+              display: block;
+              position: fixed;
+              visibility: hidden;
+              top: 0;
+              width: 100%;
+              height: 460px;
+              margin: 0;
+              padding: 80px 0;
+              list-style: none;
+              text-align: center;
+              background-color: #ECEFF1;
+              opacity: 0.9;
+              box-shadow: 1px 0px 6px rgba(0, 0, 0, 0.8);
+              }
+              /* элементы меню */
+              .menu__item {
+              display: block;
+              padding: 20px;
+              color: #14213D;
+              font-size: 33px;
+              font-weight: 700;
+              text-decoration: none;
+              }
+              .menu__item:hover {
+              background-color: #F6857C;
+              }
+              /*анимация открытия гамбургер меню*/
+              #menu__toggle:checked ~ .menu__btn > span {
+              transform: rotate(45deg);
+              }
+              #menu__toggle:checked ~ .menu__btn > span::before {
+              top: 0;
+              transform: rotate(0);
+              }
+              #menu__toggle:checked ~ .menu__btn > span::after {
+              top: 0;
+              transform: rotate(90deg);
+              }
+              #menu__toggle:checked ~ .menu__box {
+              visibility: visible;
+              left: 0;
+              }
+              #menu__toggle {
+              display: none;
+              }
+              /*заглавие на фото на среднем экране*/
+              .intro__title {
+              font-size: 70px;
+              color: white;
+              font-weight: 700;
+              text-align: left;
+              padding-top: 5%;
+              }
+              .intro__inner {
+              margin-left: 10%;
+              margin-right: 10%;
+              }
+              .box__info {
+              position: absolute;
+              margin-left: 330px;
+              margin-top: -300px;
+              font-size: 20px;
+              }
+              /*оформление ссылок 'подробнее'*/
+              .block {
+              background-color: #F74639;
+              margin: 0px;
+              font-size: 20px;
+              font-weight: 700;
+              border: 1px solid #F74639;
+              border-radius: 5px;
+              width: 10em;
+              padding: 15px;
+              margin-top: 67px;
+              text-align: center;}
+              }
+                         @media all and (max-width: 700px) {
+                         .nav {
+                         display:none
+                         }
+                         .box__info {
+                         position: relative;
+                         font-size: 20px;
+                         }
+                         .header__logo {
+                         display: inline;
+                         margin-left: 10%;
+                         }
+                         .menu__btn {
+                         display: flex;
+                         align-items: center;
+                         position: fixed;
+                         top: 20px;
+                         left: 20px;
+                         width: 26px;
+                         height: 26px;
+                         cursor: pointer;
+                         z-index: 1;
+                         }
+                         /*иконки авто в узком поле в линию*/
+                         .car__icons{
+                         display:flex;
+                         position: relative;
+                         width: 400px;
+                         height: 80px;
+                         margin-top:-40px;
+                         background-color: white;
+                         box-shadow: 0 0 20px #F74639;
+                         border: 1px solid #F74639;
+                         border-radius: 10px;
+                         }
+                         .car__icons div{
+                         flex-direction: row;
+                         }
+                         /* добавляем "гамбургер" */
+                         .menu__btn > span,
+                         .menu__btn > span::before,
+                         .menu__btn > span::after {
+                         display: block;
+                         position: absolute;
+                         width: 100%;
+                         height: 3px;
+                         background-color: #F74639;
+                         }
+                         .menu__btn > span::before {
+                         content: '';
+                         top: -8px;
+                         }
+                         .menu__btn > span::after {
+                         content: '';
+                         top: 8px;
+                         }
+                         /* контейнер меню */
+                         .menu__box {
+                         display: block;
+                         position: fixed;
+                         visibility: hidden;
+                         top: 0;
+                         width: 100%;
+                         height: 460px;
+                         margin: 0;
+                         padding: 80px 0;
+                         list-style: none;
+                         text-align: center;
+                         background-color: #ECEFF1;
+                         opacity: 0.9;
+                         box-shadow: 1px 0px 6px rgba(0, 0, 0, 0.8);
+                         }
+                         /* элементы меню */
+                         .menu__item {
+                         display: block;
+                         padding: 20px;
+                         color: #14213D;
+                         font-size: 33px;
+                         font-weight: 700;
+                         text-decoration: none;
+                         }
+                         .menu__item:hover {
+                         background-color: #F6857C;
+                         }
+                         #menu__toggle:checked ~ .menu__btn > span {
+                         transform: rotate(45deg);
+                         }
+                         #menu__toggle:checked ~ .menu__btn > span::before {
+                        top: 0;
+                        transform: rotate(0);
+                         }
+                         #menu__toggle:checked ~ .menu__btn > span::after {
+                         top: 0;
+                         transform: rotate(90deg);
+                         }
+                         #menu__toggle:checked ~ .menu__box {
+                         visibility: visible;
+                         left: 0;
+                         }
+                         #menu__toggle{
+                         display: none;
+                         }
+                         /*заглавие на фото на узком экране*/
+                         .intro__title {
+                         font-size: 40px;
+                         color: white;
+                         font-weight: 700;
+                         text-align: left;
+                         padding-top: 5%;
+                         }
+                         .intro__inner {
+                         margin-left: 10%;
+                         margin-right: 10%;
+                         }
+                         /*оформление ссылок 'подробнее'*/
+                         .block {
+                         background-color: #F74639;
+                         margin: 0px;
+                         font-size: 20px;
+                         font-weight: 700;
+                         border: 1px solid #F74639;
+                         border-radius: 5px;
+                         width: 10em;
+                         padding: 15px;
+                         margin-top: 67px;
+                         text-align: center;}
+                         }
+                                @media all and (max-width: 560px) {
+                                    .nav {
+                                    display:none
+                                    }
+                                    .header__logo {
+                                    display: inline;
+                                    margin-left: 10%;
+                                    }
+                                    .box__info {
+                                    position: relative;
+                                    font-size: 20px;
+                                    }
+                                    .menu__btn {
+                                    display: flex;
+                                    align-items: center;
+                                    position: fixed;
+                                    top: 20px;
+                                    left: 20px;
+                                    width: 26px;
+                                    height: 26px;
+                                    cursor: pointer;
+                                    z-index: 1;
+                                    }
+                                    /*иконки авто в узком поле в линию*/
+                                    .car__icons{
+                                    display:flex;
+                                    position: relative;
+                                    width: 400px;
+                                    height: 80px;
+                                    margin-top:-40px;
+                                    background-color: white;
+                                    box-shadow: 0 0 20px #F74639;
+                                    border: 1px solid #F74639;
+                                    border-radius: 10px;
+                                    }
+                                    .car__icons div{
+                                    flex-direction: row;
+                                    }
+                                    /* добавляем "гамбургер" */
+                                    .menu__btn > span,
+                                    .menu__btn > span::before,
+                                    .menu__btn > span::after {
+                                    display: block;
+                                    position: absolute;
+                                    width: 100%;
+                                    height: 3px;
+                                    background-color: #F74639;
+                                    }
+                                    .menu__btn > span::before {
+                                    content: '';
+                                    top: -8px;
+                                    }
+                                    .menu__btn > span::after {
+                                    content: '';
+                                    top: 8px;
+                                    }
+                                    /* контейнер меню */
+                                    .menu__box {
+                                    display: block;
+                                    position: fixed;
+                                    visibility: hidden;
+                                    top: 0;
+                                    width: 100%;
+                                    height: 460px;
+                                    margin: 0;
+                                    padding: 80px 0;
+                                    list-style: none;
+                                    text-align: center;
+                                    background-color: #ECEFF1;
+                                    opacity: 0.9;
+                                    box-shadow: 1px 0px 6px rgba(0, 0, 0, 0.8);
+                                    }
+                                    /* элементы меню */
+                                    .menu__item {
+                                    display: block;
+                                    padding: 20px;
+                                    color: #14213D;
+                                    font-size: 33px;
+                                    font-weight: 700;
+                                    text-decoration: none;
+                                    }
+                                    .menu__item:hover {
+                                    background-color: #F6857C;
+                                    }
+                                    #menu__toggle:checked ~ .menu__btn > span {
+                                    transform: rotate(45deg);
+                                    }
+                                    #menu__toggle:checked ~ .menu__btn > span::before {
+                                   top: 0;
+                                   transform: rotate(0);
+                                    }
+                                    #menu__toggle:checked ~ .menu__btn > span::after {
+                                    top: 0;
+                                    transform: rotate(90deg);
+                                    }
+                                    #menu__toggle:checked ~ .menu__box {
+                                    visibility: visible;
+                                    left: 0;
+                                    }
+                                    #menu__toggle{
+                                    display: none;
+                                    }
+                                    /*заглавие на фото на узком экране*/
+                                    .intro__title {
+                                    font-size: 40px;
+                                    color: white;
+                                    font-weight: 700;
+                                    text-align: left;
+                                    padding-top: 5%;
+                                    }
+                                    .intro__inner {
+                                    margin-left: 10%;
+                                    margin-right: 10%;
+                                    }
+                                    /*оформление ссылок 'подробнее'*/
+                                    .block {
+                                    background-color: #F74639;
+                                    margin: 0px;
+                                    font-size: 20px;
+                                    font-weight: 700;
+                                    border: 1px solid #F74639;
+                                    border-radius: 5px;
+                                    width: 10em;
+                                    padding: 15px;
+                                    margin-top: 67px;
+                                    text-align: center;
+                                    }}}
